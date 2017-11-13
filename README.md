@@ -33,22 +33,22 @@ Copy this below code snipped to your composer.json file and run composer update 
 ### How to use?
 
 **Create nonce field:**
-
+```
 $wpnonce = new \Inpsyde\WPNonce();
 $wpnonce->createField();
-
+```
 
 **Create nonce url:**
-
+```
 $wpnonce = new \Inpsyde\WPNonce();
 $wpnonce->createUrl();
-
+```
 
 **Verify nonce** 
-
+```
 $wpnonce = new \Inpsyde\WPNonce();
 $wpnonce->verify();
-
+```
 
 ## Authors
 
