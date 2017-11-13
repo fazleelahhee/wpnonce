@@ -1,6 +1,6 @@
 # WP Nonce
 
-This is an oop version WP Nonce for Inpsyde GmbH. 
+This is an oop version WP Nonce from Inpsyde GmbH. 
 
 ## Getting Started
 
