@@ -1,5 +1,5 @@
 <?php
-namespace Inpsyde;
+namespace Fazleelahhee\Inpsyde;
 
 class WPNonce
 {

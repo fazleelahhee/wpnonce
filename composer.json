@@ -2,7 +2,7 @@
   "name": "fazleelahhee/wpnonce",
   "autoload": {
     "psr-4": {
-      "Inpsyde\\": "src/"
+      "Fazleelahhee\\Inpsyde\\": "src/"
     }
   }
 }
