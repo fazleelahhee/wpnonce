@@ -9,24 +9,13 @@ Copy this below code snipped to your composer.json file and run "composer update
 ```
 "repositories": [
     {
-        "type": "package",
-        "package": {
-            "name": "fazleelahhee/wpnonce",
-            "version": "dev-master",
-            "source": {
-                "url": "git://github.com/fazleelahhee/wpnonce.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-4": {
-                      "Inpsyde\\": "src/"
-                    }
-            }
-        }
+        "url": "https://github.com/fazleelahhee/wpnonce.git",
+        "type": "git"
     }
 ],
-
+"require": {
+    "fazleelahhee/inpsyde": "@dev"
+}
 
 ```
 
@@ -34,19 +23,19 @@ Copy this below code snipped to your composer.json file and run "composer update
 
 **Create nonce field:**
 ```
-$wpnonce = new \Inpsyde\WPNonce();
+$wpnonce = new \Fazleelahhee\Inpsyde\WPNonce();
 $wpnonce->fieldField('wp_nonce_test_sction', 'wp_nonce_test_name', true, false);
 ```
 
 **Create nonce url:**
 ```
-$wpnonce = new \Inpsyde\WPNonce();
+$wpnonce = new \Fazleelahhee\Inpsyde\WPNonce();
 $wpnonce->getUrl('http://< domain name >/');
 ```
 
 **Verify nonce** 
 ```
-$wpnonce = new \Inpsyde\WPNonce();
+$wpnonce = new \Fazleelahhee\Inpsyde\WPNonce();
 $wpnonce->verify($nonce);
 ```
 
