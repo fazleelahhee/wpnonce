@@ -24,7 +24,7 @@ Copy this below code snipped to your composer.json file and run "composer update
 **Create nonce field:**
 ```
 $wpnonce = new \Fazleelahhee\Inpsyde\WPNonce();
-$nonceField = $wpnonce->fieldField('wp_nonce_test_sction', 'wp_nonce_test_name', true, false);
+$nonceField = $wpnonce->getField('wp_nonce_test_sction', 'wp_nonce_test_name', true, false);
 ```
 
 **Create nonce url:**
