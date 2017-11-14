@@ -1,8 +1,19 @@
 {
-  "name": "fazleelahhee/wpnonce",
-  "autoload": {
-    "psr-4": {
-      "Fazleelahhee\\Inpsyde\\": "src/"
+    "name": "fazleelahhee/wpnonce",
+    "description": "WP Nonce (OOP Version)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fazle Elahee",
+            "email": "felahee@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Fazleelahhee\\Inpsyde\\": "src/"
+        }
     }
-  }
 }
