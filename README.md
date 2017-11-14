@@ -24,13 +24,13 @@ Copy this below code snipped to your composer.json file and run "composer update
 **Create nonce field:**
 ```
 $wpnonce = new \Fazleelahhee\Inpsyde\WPNonce();
-$wpnonce->fieldField('wp_nonce_test_sction', 'wp_nonce_test_name', true, false);
+$nonceField = $wpnonce->fieldField('wp_nonce_test_sction', 'wp_nonce_test_name', true, false);
 ```
 
 **Create nonce url:**
 ```
 $wpnonce = new \Fazleelahhee\Inpsyde\WPNonce();
-$wpnonce->getUrl('http://< domain name >/');
+$nonceUrl = $wpnonce->getUrl('http://< domain name >/');
 ```
 
 **Verify nonce** 
